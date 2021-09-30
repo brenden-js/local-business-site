@@ -78,12 +78,12 @@ export default function Hero() {
           sx={{ height: 300 }}
         >
           <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyBs6_g-pSYyETMfv69KlaLDCz1p1a9MjxU' }}
+            bootstrapURLKeys={{ key: 'AIzaSyBW0-u-LVIOZfa9isLPovbW_Pr_cWvxcJE' }}
             defaultCenter={{
               lat: 10.99835602,
               lng: 77.01502627
             }}
-            defaultZoom={11}
+            defaultZoom={16}
           />
         </Box>
         <Box marginY={4} marginX={{ xs: -3, sm: -6 }}>
