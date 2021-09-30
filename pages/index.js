@@ -11,7 +11,7 @@ export default function Index() {
     <>
       <AppBar>
         <Toolbar>
-          <Image src={'/rancho-horizontal-logo-v2-300x113.png'} width={135} height={50} />
+          <Image src={'/rancho-horizontal-logo-v2-300x113.png'} alt="logo" width={135} height={50} />
         </Toolbar>
       </AppBar>
       <Container>
