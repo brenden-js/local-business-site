@@ -5,8 +5,11 @@ import Hero from '../src/components/Hero';
 import Features from '../src/components/Features';
 import { AppBar, Toolbar } from '@mui/material';
 import Image from 'next/image'
+import Footer from '../src/components/Footer';
+import { useTheme } from '@mui/material/styles';
 
 export default function Index() {
+  const theme = useTheme();
   return (
     <>
       <AppBar>
@@ -14,14 +17,23 @@ export default function Index() {
           <Image src={'/rancho-horizontal-logo-v2-300x113.png'} alt="logo" width={135} height={50} />
         </Toolbar>
       </AppBar>
-      <Container>
-        <Box sx={{ my: 16 }}>
-          <Hero />
-        </Box>
-        <Box sx={{ my: 8 }}>
+      <Box bgcolor={theme.palette.alternate.main}>
+        <Container>
+          <Box sx={{ mt: 12 }}>
+            <Hero />
+          </Box>
+        </Container>
+      </Box>
+      <Box bgcolor={theme.palette.alternate.main}>
+        <Container>
           <Features />
-        </Box>
-      </Container>
+        </Container>
+      </Box>
+      <Box>
+        <Container>
+          <Footer />
+        </Container>
+      </Box>
     </>
   )
 }

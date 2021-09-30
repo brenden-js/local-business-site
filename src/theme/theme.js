@@ -9,14 +9,14 @@ const theme = responsiveFontSizes(
   createTheme({
     palette: {
       primary: {
-        main: '#1976d2',
+        main: '#C6C6C6',
         light: '#2196f3',
         dark: '#0d47a1',
         contrastText: '#fff',
       },
       secondary: {
-        light: '#ffb74d',
-        main: '#f9b934',
+        light: '#C83C3C',
+        main: '#C83C3C',
         dark: '#FF9800',
         contrastText: 'rgba(0, 0, 0, 0.87)',
       },
@@ -33,6 +33,10 @@ const theme = responsiveFontSizes(
         default: '#fff',
         level2: '#f5f5f5',
         level1: '#fff',
+      },
+      alternate: {
+        main: '#f7f9fc',
+        dark: '#edf1f7',
       },
     },
     shadows: shadows('light'),
