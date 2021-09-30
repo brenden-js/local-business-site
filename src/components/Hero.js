@@ -73,48 +73,8 @@ const Hero = () => {
       boxShadow={1}
     >
       <Box display="flex" flexDirection={'column'}>
-        <Box marginBottom={2}>
-          <TextField
-            sx={{ height: 54 }}
-            label="Full name"
-            variant="outlined"
-            color="primary"
-            size="medium"
-            fullWidth
-          />
-        </Box>
-        <Box marginBottom={2}>
-          <TextField
-            sx={{ height: 54 }}
-            label="Email"
-            type="email"
-            variant="outlined"
-            color="primary"
-            size="medium"
-            fullWidth
-          />
-        </Box>
-        <Box marginBottom={2}>
-          <TextField
-            sx={{ height: 54 }}
-            label="Password"
-            type="password"
-            variant="outlined"
-            color="primary"
-            size="medium"
-            fullWidth
-          />
-        </Box>
         <Box>
-          <Button
-            sx={{ height: 54 }}
-            variant="contained"
-            color="primary"
-            size="medium"
-            fullWidth
-          >
-            Create an account
-          </Button>
+          1701 Corporate Drive Suite C6, Ladera Ranch CA 92694
         </Box>
         <Box marginY={4} marginX={{ xs: -3, sm: -6 }}>
           <Divider />
