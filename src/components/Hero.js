@@ -80,8 +80,7 @@ export default function Hero() {
           <GoogleMapReact
             bootstrapURLKeys={{ key: 'AIzaSyBW0-u-LVIOZfa9isLPovbW_Pr_cWvxcJE' }}
             defaultCenter={{
-              lat: 10.99835602,
-              lng: 77.01502627
+              lat: 33.55514709735115, lng: -117.62899533420548
             }}
             defaultZoom={16}
           />
