@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -9,8 +8,7 @@ import GoogleMapReact from 'google-map-react';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
 
-const Hero = () => {
-  const theme = useTheme();
+export default function Hero() {
 
   const GridItemHeadlineBlock = () => (
     <Box>
@@ -125,5 +123,3 @@ const Hero = () => {
     </Box>
   );
 };
-
-export default Hero;

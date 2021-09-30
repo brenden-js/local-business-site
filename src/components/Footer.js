@@ -5,8 +5,9 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image';
 
-const Footer = () => (
-  <Box
+export default function Footer() {
+  return (
+    <Box
     sx={{
       py: 3
     }}
@@ -65,6 +66,5 @@ const Footer = () => (
       </Grid>
     </Grid>
   </Box>
-);
-
-export default Footer;
+  );
+};
